@@ -4,55 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a5d720-b847-41bb-bd50-fd15eb23119b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kafkaProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/java/com/example/jsonposgen/JsonposgenApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/java/com/example/jsonposgen/domain/DeliveryAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/java/com/example/jsonposgen/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/java/com/example/jsonposgen/domain/PosInvoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/java/com/example/jsonposgen/service/KafkaProducerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/java/com/example/jsonposgen/service/generator/AddressGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/java/com/example/jsonposgen/service/generator/InvoiceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/java/com/example/jsonposgen/service/generator/ProductGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/resources/data/Invoice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/resources/data/address.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/main/resources/data/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonposgen/src/test/java/com/example/jsonposgen/JsonposgenApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/src/main/java/com/example/kafkaproducer/KafkaproducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/src/main/java/com/example/kafkaproducer/controller/KafkaMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/src/main/java/com/example/kafkaproducer/model/IncomingMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/src/main/java/com/example/kafkaproducer/service/KafkaProducerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaproducer/src/test/java/com/example/kafkaproducer/KafkaproducerApplicationTests.java" afterDir="false" />
+    <list default="true" id="16a5d720-b847-41bb-bd50-fd15eb23119b" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/src/main/avro/HadoopRecord.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/src/main/avro/Notification.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/src/main/java/com/kafkaStreamAvroProject/KafkaStreamAvroProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/src/main/java/com/kafkaStreamAvroProject/model/DeliveryAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/src/main/java/com/kafkaStreamAvroProject/model/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/src/main/java/com/kafkaStreamAvroProject/model/PosInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/src/main/java/com/kafkaStreamAvroProject/services/RecordBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaStreamAvroProject/src/test/java/com/kafkaStreamAvroProject/KafkaStreamAvroProjectApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -102,8 +73,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632079754868</updated>
-      <workItem from="1632079757584" duration="448000" />
+      <workItem from="1632079757584" duration="2152000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1632080234620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632080234620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
